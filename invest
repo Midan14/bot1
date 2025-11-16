@@ -1,0 +1,91 @@
+# investigador.py
+
+import asyncio
+import aiohttp
+from bs4 import BeautifulSoup
+import logging
+
+logging.basicConfig(level=logging.INFO)
+
+async def investigar_1xbet():
+    """Investiga la estructura HTML de 1xBet."""
+    print("🔍 INVESTIGADOR DE 1XBET - ANÁLISIS DE HTML")
+    print("=" * 60)
+    
+    urls = [
+        "https://col.1xbet.com/es/casino/game/97408/speed-baccarat-1",
+        "https://col.1xbet.com/es/casino/game/97408/speed-baccarat-2",
+    ]
+    
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+    }
+    
+    async with aiohttp.ClientSession(headers=headers) as session:
+        for url in urls:
+            print(f"\n📊 Analizando: {url}")
+            print("-" * 40)
+            
+            try:
+                async with session.get(url) as response:
+                    if response.status != 200:
+                        print(f"❌ Error HTTP {response.status}")
+                        continue
+                    
+                    html = await response.text()
+                
+                soup = BeautifulSoup(html, 'html.parser')
+                
+                print(f"📋 Título: {soup.title.text.strip() if soup.title else 'Sin título'}")
+                
+                # Buscar resultados de Baccarat
+                resultados = []
+                patrones = ['banca', 'banker', 'jugador', 'player', 'empate', 'tie']
+                
+                for patron in patrones:
+                    elementos = soup.find_all(string=lambda t: t and patron in t.lower())
+                    for elemento in elementos:
+                        if elemento.parent:
+                            resultados.append({
+                                'texto': elemento.strip(),
+                                'patron': patron,
+                                'tag': elemento.parent.name,
+                                'clases': elemento.parent.get('class', []),
+                                'id': elemento.parent.get('id', '')
+                            })
+                
+                print(f"🎯 Resultados encontrados: {len(resultados)}")
+                
+                if resultados:
+                    print("\n🏆 TOP 3 RESULTADOS:")
+                    for i, res in enumerate(resultados[:3]):
+                        print(f"  {i+1}. Texto: '{res['texto']}'")
+                        print(f"     Patrón: {res['patron']}")
+                        print(f"     Tag: <{res['tag']}>")
+                        print(f"     Clases: {res['clases']}")
+                        print(f"     ID: {res['id']}")
+                        print()
+                
+                # Buscar elementos con clases relacionadas
+                clases_relacionadas = []
+                for elemento in soup.find_all(class_=True):
+                    clases = elemento.get('class', [])
+                    for clase in clases:
+                        if any(palabra in clase.lower() for palabra in ['result', 'outcome', 'winner', 'game', 'history', 'score']):
+                            clases_relacionadas.append(clase)
+                
+                if clases_relacionadas:
+                    print("🎨 CLASES RELACIONADAS ENCONTRADAS:")
+                    for clase in list(set(clases_relacionadas))[:10]:
+                        print(f"  - .{clase}")
+                
+                print("\n" + "="*60)
+                
+            except Exception as e:
+                print(f"❌ Error: {e}")
+            
+            await asyncio.sleep(2)
+
+
+if __name__ == "__main__":
+    asyncio.run(investigar_1xbet())

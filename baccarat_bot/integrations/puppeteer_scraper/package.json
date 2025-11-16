@@ -1,0 +1,17 @@
+{
+  "name": "puppeteer_scraper",
+  "version": "1.0.0",
+  "description": "Microservicio de scraping con Puppeteer para Baccarat Bot",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^7.0.0",
+    "puppeteer": "^21.3.8",
+    "tesseract.js": "^6.0.1",
+    "node-fetch": "^3.3.2"
+  }
+}

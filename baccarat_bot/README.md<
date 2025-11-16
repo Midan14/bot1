@@ -1,0 +1,176 @@
+# Bot de Señales de Baccarat para 1xBet
+
+Un bot automatizado que monitorea mesas de Baccarat en 1xBet y envía señales de apuesta via Telegram cuando detecta rachas de 3 resultados idénticos.
+
+## 🎯 Características
+
+- **Monitoreo Automático**: Ve 50+ mesas de Baccarat en tiempo real
+- **Estrategia de Racha de 3**: Detecta patrones de 3 resultados iguales consecutivos
+- **Notificaciones Telegram**: Envía señales instantáneas con enlaces directos
+- **Configuración Flexible**: Variables de entorno para fácil configuración
+- **Logging Avanzado**: Registro completo de actividades
+- **Arquitectura Modular**: Código bien estructurado y mantenible
+
+## 📁 Estructura del Proyecto
+
+```
+baccarat_bot/
+├── main.py              # Archivo principal del bot
+├── config.py            # Configuración centralizada
+├── tables.py            # Gestión de mesas de Baccarat
+├── data_source.py       # Simulación de datos (futuro: API real)
+├── signal_logic.py      # Lógica de detección de señales
+├── .env                 # Variables de entorno (credenciales)
+├── .env.example         # Plantilla de configuración
+├── requirements.txt     # Dependencias del proyecto
+└── README.md           # Esta documentación
+```
+
+## 🚀 Instalación y Configuración
+
+### 1. Clonar/Descargar el Proyecto
+
+```bash
+# Descargar archivos a tu directorio local
+# El proyecto ya está en /Users/midan14/Desktop/bot/baccarat_bot/
+```
+
+### 2. Crear Entorno Virtual (Opcional pero recomendado)
+
+```bash
+cd baccarat_bot
+python3 -m venv baccarat_env
+source baccarat_env/bin/activate  # En Windows: baccarat_env\Scripts\activate
+```
+
+### 3. Instalar Dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Configurar Credenciales
+
+1. **Duplicar archivo de configuración:**
+   ```bash
+   cp .env.example .env
+   ```
+
+2. **Editar .env con tus credenciales:**
+   ```env
+   TELEGRAM_BOT_TOKEN=tu_token_aqui
+   TELEGRAM_CHAT_ID=tu_chat_id_aqui
+   INTERVALO_MONITOREO=2
+   ```
+
+3. **Obtener credenciales de Telegram:**
+   - **Token**: Crear bot en [@BotFather](https://t.me/botfather)
+   - **Chat ID**: Iniciar conversación con el bot y obtener ID via [@userinfobot](https://t.me/userinfobot)
+
+## 🏃‍♂️ Ejecutar el Bot
+
+```bash
+# Desde el directorio baccarat_bot
+python main.py
+```
+
+## ⚙️ Configuración Avanzada
+
+### Variables de Entorno
+
+| Variable | Descripción | Valor por Defecto |
+|----------|-------------|-------------------|
+| `TELEGRAM_BOT_TOKEN` | Token del bot de Telegram | **REQUERIDO** |
+| `TELEGRAM_CHAT_ID` | ID del chat destino | **REQUERIDO** |
+| `INTERVALO_MONITOREO` | Segundos entre chequeos | `5` |
+| `LONGITUD_RACHA` | Longitud de racha para señal | `3` |
+| `LOG_LEVEL` | Nivel de logging | `INFO` |
+| `USAR_DATOS_REALES` | Usar API real (futuro) | `false` |
+
+### Estrategia de Señales
+
+- **Racha de 3**: Cuando 3 resultados consecutivos son iguales
+- **Excluye Empates**: Las rachas de empates no generan señales
+- **Anti-Spam**: No envía la misma señal repetidamente
+
+## 🔧 Desarrollo
+
+### Estructura de Código
+
+- **main.py**: Bucle principal y manejo de señales
+- **config.py**: Configuración centralizada con variables de entorno
+- **tables.py**: Gestión de 50+ mesas de Baccarat
+- **data_source.py**: Simulación de resultados (preparado para API real)
+- **signal_logic.py**: Lógica de detección de patrones
+
+### Agregar Nuevas Mesas
+
+Editar `tables.py` - Array `MESA_NOMBRES`:
+
+```python
+MESA_NOMBRES = [
+    "Speed Baccarat 1", 
+    "Speed Baccarat 2",
+    "Tu Nueva Mesa Aqui",  # ← Agregar aquí
+    # ... más mesas
+]
+```
+
+## 🚨 Seguridad
+
+- **Credenciales Seguras**: Todas las credenciales en archivo `.env`
+- **No Hardcode**: Ningún token/password en el código
+- **Variables de Entorno**: Configuración vía variables de entorno
+- **Logging Seguro**: No se registran credenciales en logs
+
+## 🔮 Funcionalidades Futuras
+
+- [ ] **API Real 1xBet**: Integración con datos en vivo
+- [ ] **Múltiples Estrategias**: Fibonacci, Martingala, etc.
+- [ ] **Web Interface**: Dashboard web para configuración
+- [ ] **Análisis Estadístico**: Histórico de señales y rendimiento
+- [ ] **Múltiples Casas**: Soporte para otros casinos
+- [ ] **Alertas Push**: Notificaciones móviles nativas
+
+## 📊 Ejemplo de Señal
+
+```
+🚨 ¡SEÑAL DE BACARÁ DETECTADA! 🚨
+
+🎰 Mesa: Speed Baccarat 1
+🔗 Enlace: https://col.1xbet.com/es/casino/game/97408/speed-baccarat-1
+
+🔥 APUESTA RECOMENDADA: BANCA
+(Estrategia: Racha de 3)
+
+⏱️ Hora de la Señal: 14:32:15
+📊 Historial Reciente: B, B, B, P, P
+```
+
+## 🐛 Solución de Problemas
+
+### Error: "Token no configurado"
+- Verificar que `TELEGRAM_BOT_TOKEN` esté en archivo `.env`
+- Asegurar que el token sea válido (creado en @BotFather)
+
+### "No se envían mensajes"
+- Verificar `TELEGRAM_CHAT_ID` correcto
+- Asegurar que el bot esté autorizado en el chat
+- Comprobar que el token tenga permisos de envío
+
+### "Error de importación"
+```bash
+pip install -r requirements.txt
+```
+
+## 📞 Soporte
+
+- **Documentación**: README.md actual
+- **Logs**: Revisar archivo `baccarat_bot.log`
+- **Configuración**: Verificar archivo `.env`
+
+---
+
+**⚠️ Disclaimer**: Este bot es para fines educativos. El juego implica riesgos. Juega responsablemente.
+
+**🎮 Desarrollado para 1xBet Casino | Estrategia: Racha de 3**
