@@ -73,6 +73,11 @@ class EnhancedBaccaratBot:
         # Configuración de mesas
         self.mesa_configs = [
             {
+                'name': 'XXXtreme Lightning Baccarat',
+                'url': f"{config.scraper.base_url}XXXtreme-Lightning-Baccarat",
+                'game_id': '97411' # Nuevo ID para la mesa
+            },
+            {
                 'name': 'Speed Baccarat 1',
                 'url': f"{config.scraper.base_url}speed-baccarat-1",
                 'game_id': '97408'
@@ -81,11 +86,6 @@ class EnhancedBaccaratBot:
                 'name': 'Speed Baccarat 2',
                 'url': f"{config.scraper.base_url}speed-baccarat-2",
                 'game_id': '97409'
-            },
-            {
-                'name': 'Baccarat Lobby',
-                'url': f"{config.scraper.base_url}baccarat-lobby",
-                'game_id': '97410'
             },
         ]
     

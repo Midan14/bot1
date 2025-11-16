@@ -85,25 +85,26 @@ class RealtimeSynchronizer:
             # Selectores para detectar estados (ajustar según el sitio real)
             state_selectors = {
                 GameState.WAITING_FOR_BETS: [
-                    'text="Place your bets"',
-                    'text="Haga sus apuestas"',
-                    '.betting-open',
-                    '.timer-active'
+                    '[data-testid="game-status-text"]:has-text("Place your bets")',
+                    '[data-testid="game-status-text"]:has-text("Haga sus apuestas")',
+                    '.status-text:has-text("Place your bets")',
+                    '.status-text:has-text("Haga sus apuestas")'
                 ],
                 GameState.BETTING_CLOSED: [
-                    'text="No more bets"',
-                    'text="No más apuestas"',
-                    '.betting-closed'
+                    '[data-testid="game-status-text"]:has-text("No more bets")',
+                    '[data-testid="game-status-text"]:has-text("No más apuestas")',
+                    '.status-text:has-text("No more bets")',
+                    '.status-text:has-text("No más apuestas")'
                 ],
                 GameState.DEALING: [
-                    'text="Dealing"',
-                    'text="Repartiendo"',
-                    '.dealing-cards'
+                    '[data-testid="game-status-text"]:has-text("Dealing")',
+                    '[data-testid="game-status-text"]:has-text("Repartiendo")',
+                    '.status-text:has-text("Dealing")'
                 ],
                 GameState.SHUFFLING: [
-                    'text="Shuffling"',
-                    'text="Barajando"',
-                    '.shuffling'
+                    '[data-testid="game-status-text"]:has-text("Shuffling")',
+                    '[data-testid="game-status-text"]:has-text("Barajando")',
+                    '.status-text:has-text("Shuffling")'
                 ]
             }
             
@@ -137,11 +138,9 @@ class RealtimeSynchronizer:
         try:
             # Selectores comunes para temporizadores
             timer_selectors = [
-                '.timer',
-                '.countdown',
-                '.bet-timer',
-                '[class*="timer"]',
-                '[class*="countdown"]'
+                '[data-testid="game-timer"]',
+                '.timer-value',
+                '.game-timer__value'
             ]
             
             for selector in timer_selectors:
@@ -201,9 +200,9 @@ class RealtimeSynchronizer:
         try:
             # Selectores para resultados
             result_selectors = [
-                '.last-result',
-                '.game-result',
-                '[class*="result"]'
+                '[data-testid="last-result-text"]',
+                '.last-result__text',
+                '.game-result__winner'
             ]
             
             for selector in result_selectors:
@@ -243,11 +242,9 @@ class RealtimeSynchronizer:
         try:
             # Selectores para historial
             history_selectors = [
-                '.game-history',
-                '.results-history',
-                '.bead-road',
-                '[class*="history"]',
-                '[class*="road"]'
+                '[data-testid="bead-road-history"]',
+                '.bead-road__container',
+                '.history-grid'
             ]
             
             for selector in history_selectors:
