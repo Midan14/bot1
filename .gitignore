@@ -1,0 +1,30 @@
+# Ignorar entorno virtual
+venv/
+.venv/
+
+# Ignorar archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Ignorar archivos de Playwright
+node_modules/
+package-lock.json
+yarn.lock
+
+# Ignorar archivos de configuración local
+.env
+.DS_Store
+
+# Ignorar archivos de tests
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Ignorar archivos generados
+*.tar.gz
+*.zip
+*.log
+baccarat_bot.log
