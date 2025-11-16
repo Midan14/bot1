@@ -1,0 +1,1629 @@
+{
+    "simulation_details": {
+        "table_name": "XXXtreme Lightning Baccarat",
+        "num_rounds": 100,
+        "date": "2025-11-16 16:13:42"
+    },
+    "baccarat_stats": {
+        "B": 43,
+        "P": 44,
+        "E": 13
+    },
+    "strategy_report": {
+        "total_rounds": 100,
+        "total_signals": 80,
+        "correct_signals": 16,
+        "incorrect_signals": 64,
+        "accuracy": 20.0,
+        "table_name": "XXXtreme Lightning Baccarat",
+        "strategy_breakdown": {
+            "Patr\u00f3n Confirmado": {
+                "total": 80,
+                "correct": 16,
+                "accuracy": 20.0
+            }
+        }
+    },
+    "detailed_results": [
+        {
+            "round": 17,
+            "history_before": [
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "P"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 18,
+            "history_before": [
+                "P",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "P",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 19,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "P",
+                "E",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 22,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "E",
+                "P",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 25,
+            "history_before": [
+                "E",
+                "P",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "P"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 26,
+            "history_before": [
+                "P",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "P",
+                "E"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 27,
+            "history_before": [
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "P",
+                "E",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 28,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "P",
+                "E",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": true
+        },
+        {
+            "round": 29,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "P",
+                "E",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": true
+        },
+        {
+            "round": 30,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "B",
+                "P",
+                "E",
+                "P",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 31,
+            "history_before": [
+                "B",
+                "P",
+                "B",
+                "P",
+                "E",
+                "P",
+                "B",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 32,
+            "history_before": [
+                "P",
+                "B",
+                "P",
+                "E",
+                "P",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "E",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 33,
+            "history_before": [
+                "B",
+                "P",
+                "E",
+                "P",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": true
+        },
+        {
+            "round": 34,
+            "history_before": [
+                "P",
+                "E",
+                "P",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "E",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 80,
+            "is_correct": false
+        },
+        {
+            "round": 35,
+            "history_before": [
+                "E",
+                "P",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "E",
+                "B",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 36,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "E",
+                "B",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 37,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "E",
+                "B",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 38,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "P",
+                "E",
+                "B",
+                "P",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 39,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "E",
+                "B",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": true
+        },
+        {
+            "round": 40,
+            "history_before": [
+                "B",
+                "P",
+                "E",
+                "B",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 41,
+            "history_before": [
+                "P",
+                "E",
+                "B",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 42,
+            "history_before": [
+                "E",
+                "B",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 43,
+            "history_before": [
+                "B",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 44,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 85,
+            "is_correct": false
+        },
+        {
+            "round": 45,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 46,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 47,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 48,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 49,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 50,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 51,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 52,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 53,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 54,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 55,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 56,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "B",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 57,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "B",
+                "E",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 58,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "B",
+                "E",
+                "B",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 59,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "B",
+                "B",
+                "B",
+                "E",
+                "B",
+                "E",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 60,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "B",
+                "B",
+                "E",
+                "B",
+                "E",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 61,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "B",
+                "E",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 62,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "E",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 63,
+            "history_before": [
+                "B",
+                "B",
+                "E",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 64,
+            "history_before": [
+                "B",
+                "E",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 65,
+            "history_before": [
+                "E",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 66,
+            "history_before": [
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 67,
+            "history_before": [
+                "E",
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 68,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "P",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 69,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 70,
+            "history_before": [
+                "B",
+                "P",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 71,
+            "history_before": [
+                "P",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "E",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 72,
+            "history_before": [
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "E",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 73,
+            "history_before": [
+                "B",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "E",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 74,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "E",
+                "B",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 75,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "E",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 76,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "E",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 77,
+            "history_before": [
+                "P",
+                "P",
+                "E",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 78,
+            "history_before": [
+                "P",
+                "E",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 79,
+            "history_before": [
+                "E",
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E"
+            ],
+            "actual_result": "E",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 80,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 81,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "E",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 82,
+            "history_before": [
+                "P",
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "E",
+                "B",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 83,
+            "history_before": [
+                "B",
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "E",
+                "B",
+                "E",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 84,
+            "history_before": [
+                "P",
+                "B",
+                "P",
+                "P",
+                "E",
+                "E",
+                "B",
+                "E",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 85,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "E",
+                "E",
+                "B",
+                "E",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 86,
+            "history_before": [
+                "P",
+                "P",
+                "E",
+                "E",
+                "B",
+                "E",
+                "B",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 87,
+            "history_before": [
+                "P",
+                "E",
+                "E",
+                "B",
+                "E",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 88,
+            "history_before": [
+                "E",
+                "E",
+                "B",
+                "E",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 89,
+            "history_before": [
+                "E",
+                "B",
+                "E",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "E"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 90,
+            "history_before": [
+                "B",
+                "E",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "E",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 91,
+            "history_before": [
+                "E",
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "E",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 92,
+            "history_before": [
+                "B",
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "E",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 93,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "P",
+                "B",
+                "E",
+                "P",
+                "P",
+                "B",
+                "E"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 94,
+            "history_before": [
+                "P",
+                "P",
+                "P",
+                "B",
+                "E",
+                "P",
+                "P",
+                "B",
+                "E",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 95,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "E",
+                "P",
+                "P",
+                "B",
+                "E",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 96,
+            "history_before": [
+                "P",
+                "B",
+                "E",
+                "P",
+                "P",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 97,
+            "history_before": [
+                "B",
+                "E",
+                "P",
+                "P",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B"
+            ],
+            "actual_result": "P",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 98,
+            "history_before": [
+                "E",
+                "P",
+                "P",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P"
+            ],
+            "actual_result": "P",
+            "signal": "JUGADOR",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        },
+        {
+            "round": 99,
+            "history_before": [
+                "P",
+                "P",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P"
+            ],
+            "actual_result": "B",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": true
+        },
+        {
+            "round": 100,
+            "history_before": [
+                "P",
+                "B",
+                "E",
+                "B",
+                "B",
+                "B",
+                "B",
+                "P",
+                "P",
+                "B"
+            ],
+            "actual_result": "E",
+            "signal": "BANCA",
+            "strategy": "Patr\u00f3n Confirmado",
+            "confidence": 90,
+            "is_correct": false
+        }
+    ]
+}
